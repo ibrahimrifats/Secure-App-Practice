@@ -19,3 +19,16 @@
 2. Incremental MVP: you start with a simple and basic Day 0 architecture, and then evolve it.
    e.g: SQL, DB, one API server and a user and over time scale each component to handle the scale at next level
    (follow it when you're working with a startup/small company or MVP product)
+
+**Follow: seek clarification from senior colleagues, mentors, manager, architects** bcz system desing is ambiguous so you can't be sure about your decision.
+
+- ask critical question that challenge the desing decision.
+  - why not async execpt of real-time
+  - why we use http, why not gpRpc
+  - why we use RDB, why not nosql
+  - why we use polling, why not websocket or server-sent events
+  - why we use pooling , why not connection pooling
+
+# one thing that always works:
+
+\*Divide and conquer: start small, build on top
